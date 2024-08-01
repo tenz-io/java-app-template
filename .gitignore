@@ -32,3 +32,6 @@ target/
 
 # gradle
 .gradle/
+
+# macos
+.DS_Store
