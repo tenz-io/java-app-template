@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Runner implements CommandLineRunner {
+public class CommandLine implements CommandLineRunner {
 
     @Value("${spring.application.name}")
     private String applicationName;

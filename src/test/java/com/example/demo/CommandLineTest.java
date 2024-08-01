@@ -5,13 +5,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RunnerTest {
+class CommandLineTest {
 
     @Autowired
-    Runner runner;
+    CommandLine commandLine;
 
     @Test
     void run() {
-        runner.run("arg1", "arg2");
+        commandLine.run("arg1", "arg2");
     }
 }
