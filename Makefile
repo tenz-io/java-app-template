@@ -11,4 +11,4 @@ run:
 
 .PHONY: test
 test:
-	mvn clean test -Dtest=*.Test*
+	mvn clean test
